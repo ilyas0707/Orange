@@ -1,0 +1,217 @@
+body{
+	font-size: 16px;
+	font-family: 'PT Sans', sans-serif;
+}
+.wrapper{
+	max-width: 1170px;
+	min-width: 360px;
+	margin: 0 auto;
+	color: #637f83;
+}
+header{
+	height: 90px;
+	padding: 20px;
+}
+header a{
+	color: #637f83;
+	font-size: 32px;
+	text-decoration: none;
+	font-weight: bold;
+}
+header a:hover{
+	opacity: 0.7;
+	text-shadow: 2px 2px 2px rgba(150, 150, 150, 0.7);
+}
+.title{
+	padding: 140px 0;
+	height: 520px;
+	text-align: center;
+	width: 100%;
+	background: url(../img/bg.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.title .wrapper h3{
+	font-size: 40px;
+	color: #fff;
+	margin-bottom: 0;
+}
+.title .wrapper h3 span{
+	border-bottom: 2px solid #fff;
+}
+.title .wrapper > p{
+	letter-spacing: 5px;
+	margin-top: 15px;
+	font-size: 16px;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+}
+.wrapper > h4{
+	margin: 40px 0 0 0;
+	font-size: 34px;
+	text-align: center;
+}
+.wrapper > #mg{
+	margin: 0;
+	font-size: 24px;
+	text-align: center;
+}
+.info-blocks{
+	margin-top: 46px;
+	background: #f6f6f6;
+}
+.info-blocks .wrapper .info-item{
+	margin-left: 1%;
+	text-align: center;
+	display: inline-block;
+	width: 23%;
+	border-left: 1px solid #d5d5d5;
+	padding: 62px 27px 62px 40px;
+}
+.info-blocks .wrapper .info-item h4{
+	font-size: 22px;
+	margin-bottom: 0;
+}
+.info-blocks .wrapper .info-item > p{
+	font-size: 14px;
+}
+.info-blocks .wrapper .info-item p{
+	margin-top: 30px;
+}
+.info-blocks .wrapper .info-item p a{
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 15px;
+	background: #637f83;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+}
+.info-blocks .wrapper .info-item p a:hover{
+	opacity: 0.8;
+}
+.info-blocks .wrapper .info-item p a:active{
+	background-color:#637f83;
+	box-shadow:0 1px 1px rgba(255,255,255,.5), inset 0 2px 5px rgba(0,0,0,.5);
+}
+.info-blocks .wrapper .info-item0{
+	margin-left: 1%;
+	text-align: center;
+	display: inline-block;
+	width: 23%;
+	padding: 62px 27px 62px 40px;
+}
+.info-blocks .wrapper .info-item0 h4{
+	font-size: 22px;
+	margin-bottom: 0;
+}
+.info-blocks .wrapper .info-item0 > p{
+	font-size: 14px;
+}
+.info-blocks .wrapper .info-item0 p{
+	margin-top: 30px;
+}
+.info-blocks .wrapper .info-item0 p a{
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 15px;
+	background: #637f83;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+}
+.info-blocks .wrapper .info-item0 p a:hover{
+	opacity: 0.8;
+}
+.info-blocks .wrapper .info-item0 p a:active{
+	background-color:#637f83;
+	box-shadow:0 1px 1px rgba(255,255,255,.5), inset 0 2px 5px rgba(0,0,0,.5);
+}
+.wrapper > p{
+	margin-top: 0;
+	font-size: 24px;
+	text-align: center;
+}
+.wrapper .box1, .wrapper .box2{
+	display: inline-block;
+}
+.wrapper .pic{
+	margin-top: 25px;
+	display: inline-block;
+	margin-left: 25px;
+}
+.wrapper .pic img{
+	-webkit-border-radius:3px;
+	border-radius:3px;
+}
+.wrapper .pic1{
+	margin-top: 25px;
+	display: inline-block;
+	margin-left: 25px;
+}
+.wrapper .pic1 img{
+	-webkit-border-radius:3px;
+	border-radius:3px;
+}
+.wrapper .pic0{
+	margin-top: 25px;
+	display: inline-block;
+	margin: 0;
+}
+.wrapper .pic0 img{
+	-webkit-border-radius:3px;
+	border-radius:3px;
+}
+.wrapper .border .b1{
+	border-top: 1px solid #d9d9d9;
+	width: 47%;
+	color: transparent;
+	float: left;
+}
+.wrapper .border .b2{
+	border-top: 1px solid #d9d9d9;
+	width: 47%;
+	color: transparent;
+	float: right;
+}
+.wrapper h5{
+	padding: 20px 0 40px 0;
+	text-align: center;
+}
+.wrapper h5 a{
+	text-decoration: none;
+	font-weight: normal;
+	color: #fff;
+	font-size: 18px;
+	padding: 14px 17px;
+	background: #e4551d;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+}
+.wrapper h5 a:hover{
+	opacity: 0.8;
+}
+.wrapper h5 a:active{
+	background-color: #e4551d;
+	box-shadow:0 1px 1px rgba(255,255,255,.5), inset 0 2px 5px rgba(0,0,0,.5);
+}
+footer{
+	background: #637f83;
+	text-align: center;
+	padding: 42px 0;
+}
+footer span{
+	color: #fff;
+}
+footer span a{
+	color: #fff;
+	text-decoration: none;
+}
+footer span a:hover{
+	opacity: 0.7;
+	text-decoration: underline;
+}
+
+
+
+
